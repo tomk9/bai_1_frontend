@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import LoginScreen from "./pages/LoginScreen";
 import MainScreen from "./pages/MainScreen";
+import MessageScreen from "./pages/MessageScreen";
 import PermissionScreen from "./pages/PermissionScreen";
 
 class App extends Component {
@@ -16,7 +17,12 @@ class App extends Component {
             component={({ history }) => <LoginScreen history={history} />}
           />
           <Route
-            path="/permissions"
+            path="/message"
+            exact
+            component={({ history }) => <MessageScreen history={history} />}
+          />
+          <Route
+            path="/permissions/:message_id"
             exact
             component={({ history }) => <PermissionScreen history={history} />}
           />

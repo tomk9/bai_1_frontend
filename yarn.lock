@@ -7029,6 +7029,12 @@ remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
 
+rename-keys@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/rename-keys/-/rename-keys-2.0.1.tgz#805efe4a1afceb40c48107ff8d2a969982dbf837"
+  dependencies:
+    isobject "^3.0.1"
+
 renderkid@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/renderkid/-/renderkid-2.0.2.tgz#12d310f255360c07ad8fde253f6c9e9de372d2aa"
